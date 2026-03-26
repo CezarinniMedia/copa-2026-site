@@ -113,8 +113,8 @@ export function Conceito() {
         className="grid grid-cols-1 sm:grid-cols-2 gap-5"
       >
         {features.map((feature) => (
-          <StaggerItem key={feature.title}>
-            <div className="group relative overflow-hidden rounded-2xl bg-white/[0.02] backdrop-blur-sm border border-white/[0.06] transition-all duration-300 hover:bg-white/[0.05] hover:border-white/10">
+          <StaggerItem key={feature.title} className="h-full">
+            <div className="group h-full relative overflow-hidden rounded-2xl bg-white/[0.02] backdrop-blur-sm border border-white/[0.06] transition-all duration-300 hover:bg-white/[0.05] hover:border-white/10">
               <div
                 className="absolute inset-0 rounded-2xl pointer-events-none"
                 style={{
