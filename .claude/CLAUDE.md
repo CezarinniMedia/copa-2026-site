@@ -353,4 +353,56 @@ npm run trace -- workflow-name
 - Document breaking changes prominently
 
 ---
+
+<!-- PROJECT-SPECIFIC: Copa 2026 -->
+## Projeto: Copa do Mundo 2026 — Proposta Arena da Figurinha
+
+### Stack do Projeto
+- **Next.js 15** (App Router) + TypeScript
+- **Tailwind CSS v4** + **shadcn/ui**
+- Componentes instalados: button, card, badge, separator, table, accordion, tabs
+
+### Skills Obrigatórias
+Ao desenvolver este projeto, SEMPRE usar as seguintes skills quando aplicável:
+
+| Skill | Quando Usar |
+|-------|-------------|
+| `ui-ux-pro-max` | Design de componentes, layouts, cores, tipografia |
+| `frontend-design` | Criação de interfaces distintas e production-grade |
+| `web-design-guidelines` | Revisão de UI contra Web Interface Guidelines |
+| `shadcn-ui` | Integração de componentes shadcn/ui |
+| `vercel-react-best-practices` | Performance e otimização React/Next.js |
+| `vercel-composition-patterns` | Padrões de composição escaláveis |
+
+### Briefing do Projeto
+Site de proposta comercial para o Shopping Norte Sul Plaza (Campo Grande-MS).
+
+**Objetivo:** Landing page profissional que apresenta a "Arena da Figurinha" — espaço temático de troca e venda de figurinhas Panini da Copa do Mundo 2026 dentro do shopping.
+
+**Público-alvo:** Ana Bruno (Ger. Marketing do Shopping) e diretoria.
+
+**Tom:** Profissional, premium, com energia de Copa do Mundo. Não é "site de figurinha infantil" — é proposta B2B de parceria de marketing.
+
+**Conteúdo base:** `/Users/admin/vault/Copa do Mundo 2026/Dados/Proposta Shopping Norte Sul.md`
+
+**Seções da página:**
+1. Hero — "Arena da Figurinha | Copa do Mundo 2026" + Josimar Produções
+2. O Conceito — O que é a Arena (170m², grama, mesas, ponto de venda)
+3. Estrutura — O que nós fornecemos vs o que pedimos ao shopping
+4. Datas — Timeline visual (montagem → inauguração → operação → desmontagem)
+5. Modelo de Parceria — ZERO custo para o shopping (destaque visual forte)
+6. Benefícios — 8 benefícios para o shopping (cards ou grid)
+7. Lojistas — Como lojistas podem vender em consignação
+8. Sobre Josimar Produções — Credibilidade (29 anos, 5k+ shows, distribuidor oficial)
+9. Próximos Passos — Timeline de aprovação
+10. Contato — Josimar Santos +55 67 99934-2203 / josimarsantos673@gmail.com
+
+**Diretrizes visuais:**
+- Cores: verde (#009B3A), amarelo (#FFDF00), azul (#002776) — cores do Brasil/Copa
+- Fundo escuro (dark mode) com acentos vibrantes
+- Tipografia bold para headlines, clean para corpo
+- Ícones Lucide React (NUNCA emojis iOS)
+- Imagens: usar gradientes/patterns em vez de fotos (não temos fotos)
+- Mobile-first, mas foco em desktop (Ana vai ver no computador)
+
 *Synkra AIOX Claude Code Configuration v2.0*

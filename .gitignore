@@ -12,10 +12,12 @@ node_modules/
 node_modules
 
 # Build & Logs (AIOX)
+.next/
 dist/
 build/
 *.log
 logs/
+tsconfig.tsbuildinfo
 
 # IDE & OS (AIOX)
 .DS_Store
@@ -27,3 +29,4 @@ Thumbs.db
 .aiox-core/local/
 .claude/settings.local.json
 .aiox/install-log.txt
+.vercel
