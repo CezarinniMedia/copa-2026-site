@@ -39,7 +39,7 @@ const features: Feature[] = [
     icon: Store,
     title: "Ponto de Vendas Oficial",
     description:
-      "Ponto de venda oficial de álbuns e figurinhas com quiosque estilizado Copa do Mundo.",
+      "Quiosque estilizado Copa do Mundo com venda oficial de álbuns, figurinhas avulsas e pacotes. Estoque contínuo garantido pela distribuição oficial Panini — o colecionador sempre encontra o que precisa.",
     accentColor: "rgba(26, 85, 204, 0.08)",
     iconBg: "bg-copa-azul-light/15",
     iconColor: "text-copa-azul-light",
