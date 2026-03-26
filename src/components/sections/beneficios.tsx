@@ -41,7 +41,7 @@ const benefits: Benefit[] = [
     icon: Trophy,
     title: "Posicionamento Único",
     description:
-      "Único shopping de Campo Grande com Arena da Figurinha da Copa 2026.",
+      "Único shopping com ponto de troca organizado em Campo Grande. Toda pessoa que compra figurinha na cidade precisa vir aqui para trocar — semanalmente.",
     accentColor: "rgba(255, 223, 0, 0.04)",
     iconColor: "text-copa-amarelo",
     iconBg: "bg-gradient-to-br from-copa-amarelo/20 to-copa-amarelo/5",

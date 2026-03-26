@@ -2,6 +2,7 @@ import { Navigation } from "@/components/navigation";
 import { WaveDivider } from "@/components/wave-divider";
 import { Hero } from "@/components/sections/hero";
 import { Conceito } from "@/components/sections/conceito";
+import { Trafego } from "@/components/sections/trafego";
 import { Beneficios } from "@/components/sections/beneficios";
 import { ModeloParceria } from "@/components/sections/modelo-parceria";
 import { Estrutura } from "@/components/sections/estrutura";
@@ -18,6 +19,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Conceito />
+        <Trafego />
         <WaveDivider topColor="#090910" bottomColor="#060609" variant="wave" />
         <Beneficios />
         <ModeloParceria />

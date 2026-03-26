@@ -46,9 +46,9 @@ const features: Feature[] = [
   },
   {
     icon: Camera,
-    title: "Área Instagramável",
+    title: "Cenário Instagramável",
     description:
-      "Cenários temáticos para fotos e vídeos — conteúdo espontâneo para redes sociais do shopping.",
+      "O campo de grama sintética cria um ambiente único que naturalmente faz as pessoas quererem fotografar e publicar nas redes sociais — gerando visibilidade espontânea e gratuita para o shopping.",
     accentColor: "rgba(0, 155, 58, 0.05)",
     iconBg: "bg-copa-verde/10",
     iconColor: "text-copa-verde",
@@ -81,6 +81,21 @@ export function Conceito() {
       </FadeIn>
 
       <FadeIn delay={0.15}>
+        <div className="grid grid-cols-3 gap-4 mb-12">
+          {[
+            { value: "1M+", label: "figurinhas vendidas na Copa 2022", color: "text-copa-verde" },
+            { value: "12", label: "semanas contínuas de operação", color: "text-copa-amarelo" },
+            { value: "100%", label: "cobertura digital de Campo Grande", color: "text-copa-azul-light" },
+          ].map((stat) => (
+            <div key={stat.label} className="text-center p-4 rounded-xl bg-white/[0.02] border border-white/[0.06]">
+              <div className={`text-3xl md:text-4xl font-black ${stat.color}`}>{stat.value}</div>
+              <p className="text-xs text-muted-foreground mt-2">{stat.label}</p>
+            </div>
+          ))}
+        </div>
+      </FadeIn>
+
+      <FadeIn delay={0.2}>
         <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.06] shadow-xl shadow-black/20">
           <Image
             src="/images/familia-troca-copa2026.png"

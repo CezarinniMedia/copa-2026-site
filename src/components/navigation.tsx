@@ -7,6 +7,7 @@ import { Menu, X } from "lucide-react";
 
 const navItems = [
   { label: "Conceito", href: "#conceito" },
+  { label: "Tráfego", href: "#trafego" },
   { label: "Estrutura", href: "#estrutura" },
   { label: "Datas", href: "#datas" },
   { label: "Parceria", href: "#modelo-parceria" },

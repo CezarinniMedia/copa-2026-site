@@ -93,6 +93,18 @@ export function Hero() {
           </p>
         </motion.div>
 
+        <motion.div
+          className="mt-6 inline-flex items-center gap-2"
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 1.2 }}
+        >
+          <div className="flex items-center gap-2 text-xs font-bold text-copa-verde tracking-widest uppercase bg-copa-verde/10 border border-copa-verde/20 rounded-full px-5 py-2.5">
+            <div className="w-1.5 h-1.5 rounded-full bg-copa-verde animate-pulse" />
+            O único ponto de troca de figurinhas de Campo Grande
+          </div>
+        </motion.div>
+
         {/* Arena showcase image */}
         <motion.div
           className="mt-14 relative max-w-5xl mx-auto rounded-2xl overflow-hidden border border-white/[0.06] shadow-xl shadow-black/20"
