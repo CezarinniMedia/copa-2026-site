@@ -10,7 +10,7 @@ const steps = [
     step: 1,
     title: "Aprovação da Proposta",
     responsible: "Shopping Norte Sul (Ana Bruno)",
-    date: "Até 04/04/2026",
+    date: "Até 31/05/2026",
   },
   {
     step: 2,
